@@ -30,6 +30,10 @@ bin/plovr [plovr arguments]
 And npm will install a link to the binary in `node_modules/.bin` as
 it is wont to do.
 
+Note that Plovr requires a Java runtime to operate. It specifically
+assumes that there is a binary called `java` in the `$PATH` and will
+undoubtedly fail spectacularly if that's not the case.
+
 Contributing
 ------------
 
