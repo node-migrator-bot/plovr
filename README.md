@@ -1,7 +1,7 @@
 plovr
 =====
 
-An npm wrapper for Plovr, the Closure (JS compiler) build tool.
+An npm wrapper for [Plovr](http://plovr.com/), the Closure (JS compiler) build tool.
 
 Building and Installing
 -----------------------
