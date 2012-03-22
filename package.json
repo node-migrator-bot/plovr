@@ -1,0 +1,35 @@
+{
+    "name": "plovr",
+    "version": "0.0.1",
+    "keywords":
+        ["javascript", "compiler", "closure", "build"],
+    "description":
+        "Build tool that uses the Closure JavaScript compiler",
+    "homepage": "https://github.com/Obvious/plovr",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Obvious/plovr.git"
+    },
+    "licenses": [ {
+        "type": "Apache 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    } ],
+    "author": "Dan Bornstein <danfuzz@milk.com>",
+    "maintainers": [ {
+        "name": "Dan Bornstein",
+        "email": "danfuzz@obvious.com",
+        "web": "http://www.milk.com/"
+    } ],
+
+    "bin": {
+        "plovr": "./bin/plovr",
+    },
+    "engine": {
+        "node": "*"
+    },
+    "preferGlobal": true,
+
+    "scripts": {
+        "install": "node install.js"
+    }
+}
