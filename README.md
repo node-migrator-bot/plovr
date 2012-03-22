@@ -7,7 +7,7 @@ Building and Installing
 -----------------------
 
 ```shell
-npm install oid
+npm install plovr
 ```
 
 Or grab the source and
