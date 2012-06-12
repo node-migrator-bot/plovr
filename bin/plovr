@@ -24,4 +24,4 @@ cd "${origDir}"
 origDir=
 newProg=
 
-exec java -jar "${progDir}/../lib/plovr.jar" "$@"
+exec java -Xmx4096m -jar "${progDir}/../lib/plovr.jar" "$@"
