@@ -34,7 +34,7 @@ function mkdirs(name) {
     mkdirs0(path.dirname(name));
 
     function mkdirs0(dir) {
-        if (!path.existsSync(dir)) {
+        if (!fs.existsSync(dir)) {
             mkdirs(path.dirname(dir));
             fs.mkdirSync(dir);
         }
